@@ -3,6 +3,9 @@
 sudo: true
 dist: xenial
 
+arch:
+  - amd64
+  - arm64
 addons:
   apt:
     packages:
